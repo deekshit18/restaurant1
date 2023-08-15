@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Archivo+Narrow&family=Big+Shoulders+Inline+Text:wght@100;200;600&family=Bungee+Spice&family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Rajdhani&family=Reem+Kufi+Ink&family=Roboto&family=Sacramento&family=Yellowtail&display=swap');
+/* font-family: 'Reem Kufi Ink', sans-serif; */
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+    /* background-color: black; */
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        /* background-color: white; */
+        position: relative;
+        
+    }
+    .nb{
+        display: flex;
+        justify-content: space-between;
+    width: 85%;
+    margin-left: 100px;
+    align-items: center;
+    }
+    .cimg{
+        width: 150px;
+    }
+    .l1{
+    
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+    }
+    .alink{
+
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+        font-family: 'Reem Kufi Ink', sans-serif;
+
+    }
+    
+    .alink:hover{
+        font-family: 'Reem Kufi Ink', sans-serif;
+        color: #ff0000;
+    }
+    .vid{
+        position: absolute;
+        right: 0;
+        /* bottom: 0; */
+        z-index: -1;
+        /* left: 0; */
+        top: 0;
+        width: 100%;
+        
+    }
+    /* about */
+    .about{
+    margin-top: 0%;
+    }
+    .about_img #aimg{
+    width: 80%;
+    height: 300px;
+    border-radius: 1rem;
+    
+    }
+    .about .aboutdiv p{
+        padding-top: 20px ;
+        padding-bottom: 10px;
+        font-weight: 400;
+        font-size: 19x;
+        text-align: justify;
+        color: azure;
+        padding-left: 10px;
+
+    }
+    .about h1{
+        margin-top: -13px;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Reem Kufi Ink', sans-serif;
+        /* background-image: linear-gradient(135deg, #ff6f61, #e6324a); */
+        
+            background-image: linear-gradient(90deg, #000000, #323232);
+            color: #ff0000;
+          
+
+    }
+    .about .aboutdiv h2{
+        margin-top: 1rem;
+        font-family: 'Reem Kufi Ink', sans-serif;
+    color: #ff0000;
+    }
+    
+    .about h1 span{
+        font-size: 43px;
+        font-family: 'Reem Kufi Ink', sans-serif;
+
+    }
+    .aboutdiv{
+        background-image: linear-gradient(90deg, #000000, #323232);
+
+        /* margin-top: 2rem; */
+         /* /1rem=16px/ */
+        display: grid;
+        grid-template-columns: repeat(2,1fr); /* side by side*/
+        gap: 2rem;/* gap b/w grids*/
+    }
+    .vidd{
+        margin-top: 8rem;
+    }
+ #thank{
+        color: #ff0000;
+font-size: 2rem;
+        font-family: 'Reem Kufi Ink', sans-serif;
+    }
+
+    /* menu............................... */
+    .item{
+        
+        width: 100%;
+        height: 490vh;
+        /* background-color: white; */
+        position: relative;
+        background-image: linear-gradient(90deg, #000000, #323232);
+/* position: relative;         */
+        
+    }
+    .mi{
+        margin-top: 5%;
+    display: flex;
+        width:100%;
+        /* height: 400px; */
+
+
+    }
+    .mi div{
+        border: 10px solid rgb(255, 255, 255);
+        box-shadow: 0px 2px 10px 1px rgba(255, 255, 255, 0.52);
+        width: 375px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        margin-top: 25px;
+        margin-left: 50px;
+        color: #fff;
+
+    }
+    .mi1{
+        display: flex;
+            width:100%;
+            /* height: 400px; */
+}
+.mi2{
+            display: flex;
+                width:100%;
+                /* height: 400px; */
+}
+.mi3{
+                display: flex;
+                    width:100%;
+                    /* height: 400px; */
+}
+.mi1 div{
+    border: 10px solid rgb(255, 255, 255);
+    box-shadow: 0px 2px 10px 1px rgba(255, 255, 255, 0.52);
+    width: 375px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    /* background-color: #fff; */
+color: #fff;
+
+}
+.mi2 div{
+    border: 10px solid rgb(255, 255, 255);
+    box-shadow: 0px 2px 10px 1px rgba(255, 255, 255, 0.52);
+
+    width: 375px;
+    margin-right: 50px;
+margin-top: 10px;
+margin-left: 50px;
+color: #fff;
+
+
+}
+.item h1{
+    font-size: 30px;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    color: #ff0000;
+
+
+}
+.item button {
+    width: 100%;
+    
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    /* border-radius: 5px; */
+    border: none;
+    padding: 13px 0;
+    cursor: pointer;
+    background: #09ff00;
+    
+    
+}
+#b3{
+    margin-top: 85px;
+}
+#b1{
+    margin-top: 21px;
+}
+#b2{
+    margin-top: 47px;
+}
+#b4{
+    margin-top: 2px;
+}
+.item h2{
+    color: #ff0000;
+    font-family: 'Reem Kufi Ink', sans-serif;
+font-size: 40px;
+ margin-bottom: 30px;
+ margin-top: -80px;
+ margin-left: 20%;
+}
+.item .cimg{
+
+    width: 200px;
+    margin-top: 5%;
+    /* margin-left: 40px; */
+    
+}
+.menucontainer{
+    width: 100%;
+    height: -100vh;
+    /* position: absolute; */
+
+    background-image: linear-gradient(90deg, #000000, #323232);
+}
+.menucontainer nav{
+    position: fixed;
+    z-index: 9999;
+
+    display: flex;
+    /* justify-content: space-between; */
+/* width: 85%; */
+/* margin-left: 20px; */
+align-items: center;
+background-image: linear-gradient(90deg, #000000, #323232);
+width: 100%;
+padding-left: 60%;
+}
+
+.menucontainer nav .alink{
+    color: #ff0000;
+    
+
+}
+.sd1{
+    /* border: 5px solid rgb(255, 255, 255); */
+    /* box-shadow: 0px 2px 10px 1px rgba(255, 255, 255, 0.52); */
+
+    /* width: 500px; */
+    /* margin-right: 50px; */
+/* margin-top: 10px; */
+/* margin-left: 50px; */
+color: #fff;
+margin-top: 8rem;
+border: 3px solid white;
+padding-right: -200px;
+}
+.item hr{
+    margin: 2rem;
+    color: #323232;
+}
+.sd h1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+font-size: 60px;
+font-family: 'Reem Kufi Ink', sans-serif;
+margin-bottom: 20px;
+margin-top: 2rem;
+}
+
+.vid2{
+    /* margin-right: 5%; */
+    border: 3px solid rgb(255, 0, 0);
+    margin-top: -110px;
+    margin-left: 30px;
+
+}
+.menud{
+    margin-top: 10px;
+    /* offer */
+}
+.sp2{
+    border: 3px solid white;
+    margin-top: 30px;
+    float: right;
+    margin-right: 50px;
+
+}
+.sd .offhead{
+  margin-top: 20px;  
+  margin-left: 205px;
+  margin-bottom: -120px;
+  
+}
+.bat{
+    float: left;
+    margin-top: -90px;
+    width: 300px;
+}
+.offerdiv .sp1{
+    border: 3px solid white;
+
+    margin-left: 45%;
+    margin-top: -25%;
+}
+.del{
+    width: 100%;
+    height: 100vh;
+    /* background-color: white; */
+    position: relative;
+    background-image: linear-gradient(90deg, #000000, #323232);
+
+}
+.del video{
+    width: 300px;
+float: right;
+margin-right: 5rem;
+margin-top: 1rem;
+}
+.del h2{
+    color: #ff0000;
+}
+/* foot1 */
+   footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footercontainer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.footeritem {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footeritem h3 {
+    border-bottom: 2px solid #f90808;
+    padding-bottom: 10px;
+    color: aqua;
+}
+
+.footeritem p {
+    margin: 10px 0;
+    color: aquamarine;
+}
+
+.footeritem a {
+    color: #f9b208;
+    text-decoration: none;
+}
+.footeritem a:hover{
+    color: #ff0000;
+}
+/* delivery info */
+.deliverysection {
+    background-color: #f90808;
+    /* #f9b208 */
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.deliverycontent {
+    max-width: 800px;
+    margin: auto;
+}
+
+.deliverycontent h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.deliverycontent p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.deliverybutton {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #f90808;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.deliverybutton:hover {
+    background-color: #f9b208;
+    color: #ffffff;
+}
+.vid0{
+    width: 230px;
+    margin-right: -70rem;
+    margin-top: -60rem;
+}
+.deliverycontent img{
+    width: 100px;
+}
+/* foot2 */
+.foot {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footercontent {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.deliverydetails, 
+.userloc {
+    flex: 1;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.foot h3 {
+    border-bottom: 2px solid #f9b208;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+#locinput {
+    padding: 10px;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.foot button {
+    padding: 10px 20px;
+    /* margin-left: 5px; */
+    cursor: pointer;
+    margin-top: 10px;
+}
+.foot a{
+    text-decoration: none;
+    padding-top: 1px;
+    color: rgb(255, 255, 255);
+}
+.foot button:hover {
+    background-color: #09ff00;
+    color: #fff;
+}
+.foot a:hover{
+    color: rgb(0, 85, 255);
+}
+#cr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    color: #f90808;
+}
+#ali:hover{
+    font-family: 'Reem Kufi Ink', sans-serif;
+    color: #f8f4f4;
+}
+.sd{
+padding-top: 2px;
+}
